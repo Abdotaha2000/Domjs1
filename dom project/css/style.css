@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.item{
+    margin: 15px;
+    cursor: pointer;
+}
+
+
+.img-caption{
+    background-color: #fff;
+    width: 80%;
+    left: 10%;
+    bottom: 30px;
+    padding: 10px;
+}
+
+#lightBocContainer{
+    position: fixed;
+    display: none;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0,0, 0.54);
+}
+#lightBoxItem{
+    width: 38%;
+    height: 450px;
+    background-image: url(../image/team-2.png);
+    
+}
+#close{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+}
+#lightBoxItem i{
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(194, 186, 186);
+    margin: 10px;
+}
